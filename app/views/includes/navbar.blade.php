@@ -31,6 +31,7 @@
 						<ul class="menu">
 							<!-- Sample Notification -->
 							<?php 
+							
 							//TODO: Sebelumnya read query unread notification dari tabel.
 							for($loop = 0;$loop < $unread; $loop++){	
 								$notif = View::make('parts.notification', array(
